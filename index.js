@@ -93,7 +93,7 @@ client.on('message', (message) => {
       {name: '!도움', desc: '도움말 표시'},
       {name: '핑', desc: '현재 핑 상태'},
       {name: 'embed', desc: 'embed 예제1'},
-      {name: '!전체공지2', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
+      {name: '!공지', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
       {name: '!청소', desc: '텍스트 지움'},
       {name: '!초대코드', desc: '해당 채널의 초대 코드 표기'},
       {name: '!server', desc: '서버 정보 표시'},
@@ -137,7 +137,7 @@ client.on('message', (message) => {
           message.channel.send('**'+message.guild.channels.get(message.channel.id).guild.name+'** 채널 권한이 없어 초대코드 발행 실패')
         }
       })
-  } else if(message.content.startsWith('!공지2')) {
+  } else if(message.content.startsWith('!공지')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!공지2'.length);
