@@ -98,7 +98,7 @@ client.on('message', (message) => {
       {name: 'embed', desc: 'embed 예제1'},
       {name: '!공지', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
       {name: '!청소', desc: '텍스트 지움'},
-      {name: '!초대코드', desc: '해당 채널의 초대 코드 표기'},
+      {name: '!초대코드(블럭)', desc: '해당 채널의 초대 코드 표기'},
       {name: '!server', desc: '서버 정보 표시'},
     ];
     let commandStr = '';
