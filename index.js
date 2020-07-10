@@ -34,8 +34,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('5MS');
+  if(message.content == '핑') {
+    return message.reply('측정 불가');
   }
 
   if(message.content == '!server') {
@@ -90,8 +90,8 @@ client.on('message', (message) => {
   } else if(message.content == '!도움') {
     let helpImg = 'https://cdn.discordapp.com/attachments/717205181502324868/717207192695996557/cbjr21565491229_1.jpg';
     let commandList = [
-      {name: '!help', desc: '도움말 표시'},
-      {name: 'ping', desc: '현재 핑 상태'},
+      {name: '!도움', desc: '도움말 표시'},
+      {name: '핑', desc: '현재 핑 상태'},
       {name: 'embed', desc: 'embed 예제1'},
       {name: '!전체공지2', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
       {name: '!청소', desc: '텍스트 지움'},
