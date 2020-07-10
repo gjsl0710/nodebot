@@ -87,7 +87,7 @@ client.on('message', (message) => {
       .setFooter('Made By MOON', img)
 
     message.channel.send(embed)
-  } else if(message.content == '!help') {
+  } else if(message.content == '!도움') {
     let helpImg = 'https://cdn.discordapp.com/attachments/717205181502324868/717207192695996557/cbjr21565491229_1.jpg';
     let commandList = [
       {name: '!help', desc: '도움말 표시'},
