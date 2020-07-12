@@ -35,10 +35,10 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '핑') {
-    return message.reply('측정 불가');
+    return message.reply('사기꾼 거르세용');
   }
   if(message.content == '문이봇') {
-    return message.reply('');
+    return message.reply('사기꾼 거르세용');
   }
 
   if(message.content == '!server') {
@@ -75,7 +75,7 @@ client.on('message', (message) => {
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/attachments/717205181502324868/717207192695996557/cbjr21565491229_1.jpg';
     let embed = new Discord.RichEmbed()
-      .setTitle('타이틀')
+      .setTitle('사기꾼 거르세용')
       .setURL('http://www.naver.com')
       .setAuthor('! MOON 문이', img, 'http://www.naver.com')
       .setThumbnail(img)
@@ -93,9 +93,9 @@ client.on('message', (message) => {
   } else if(message.content == '!도움') {
     let helpImg = 'https://cdn.discordapp.com/attachments/717205181502324868/717207192695996557/cbjr21565491229_1.jpg';
     let commandList = [
-      {name: '!도움', desc: '도움말 표시'},
-      {name: '핑', desc: '현재 핑 상태'},
-      {name: 'embed', desc: 'embed 예제1'},
+      {name: '!도움', desc: '사기꾼 거르세용'},
+      {name: '핑', desc: '호두년 ㅋㅋ'},
+      {name: 'embed', desc: '凸'},
       {name: '!공지', desc: 'dm으로 전체 embed 형식으로 공지 보내기'},
       {name: '!청소', desc: '텍스트 지움'},
       {name: '!초대코드(블럭)', desc: '해당 채널의 초대 코드 표기'},
